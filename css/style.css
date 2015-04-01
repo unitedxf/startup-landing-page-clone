@@ -62,17 +62,24 @@ body {
 
 .content{
     padding: 0px 15px;
-	
+	margin: 0 auto;
+	width: 970px;
 
 }
 
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+	z-index: 9999;
+	border-bottom: 1px solid #eaebec;
+
 }
 .top-navigation > .content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    border: 1px
 }
 .top-navigation .links{
   	float: right;
@@ -81,6 +88,7 @@ body {
 	display: inline-block;
 	margin-left: 1.563rem;
 	margin-top: 30px;
+	font-weight: 300;
 }
 .top-navigation .links li a{
 	font-family: 'Roboto', sans-serif; 
@@ -89,6 +97,7 @@ body {
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 	text-decoration: none;
+
 }
 .top-navigation .links > .active {
     color: #4c5058;
@@ -98,7 +107,115 @@ body {
     cursor: pointer;
     color: #333333;
 }
-.image-container{
-    background-image: url('images/first-background.jpg') bottom center no-repeat;
+.introduction{
+    background-image: url('../images/first-background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    overflow: auto;
+	
+}
+
+h1, h2, h3{
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 20px;
+	
+}
+.introduction h1{
+	color: #fff;
+	font-size: 2.8em;
+	font-weight: 300;
+}
+
+h3{
+	font-size: 1.5em;
+	font-weight: 100;
+	color: #fff;
+}
+
+.introduction > .content{
+	padding-top: 190px;
+    text-align: center;
 
 }
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: #f15a29;
+    border-color: #f15a29;
+	font-size: 1.000em;
+	color: #fff;
+	margin:10px 0;
+	transition: all 0.5s ease;
+}
+
+.big-button:hover {
+   background-color: #d9400e;
+   
+}
+
+h2{
+	text-align: center;
+	color: #666666;
+	font-size: 2.8em;
+	font-weight: 300;
+	margin-top: 100px;
+
+}
+
+h3{
+	font-size: 1.5em;
+	color: #666666;
+	padding: 15px 0;
+
+}
+.cases .devices {
+    width: 33%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    height: 4em;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.social hr{
+	border-top: 1px solid #eaebec;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	
+}
+.social{
+	text-align: center;
+	margin: 70px 0;
+}
+.social p{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 20px;
+	color: #666666;
+
+}
+.social .icons li{
+	display: inline-block;
+	padding: 20px 0px;
+	border: 1px solid #eaebec;
+	border-radius: 4em;
+	width: 40px;
+	height: 40px;
+	margin: 0 15px;
+}
+
+
+
+
+
+
+
+
+
